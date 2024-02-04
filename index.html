@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>벌금 분담 계산기</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>벌금 분담 계산기</h1>
+    <div id="calculator">
+        <label for="totalCost">총 비용 입력: </label>
+        <input type="number" id="totalCost" placeholder="총 비용을 입력하세요">
+        <button onclick="calculate()">계산하기</button>
+    </div>
+    <table id="resultTable">
+        <thead>
+            <tr>
+                <th>이름</th>
+                <th>기존 부담 금액</th>
+                <th>추가 부담 금액</th>
+                <th>최종 부담 금액</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- 결과 영역 -->
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
